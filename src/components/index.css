@@ -1,0 +1,11 @@
+.btn-component {
+  padding-block: 10px;
+  padding-inline: 14px;
+  font-size: 14px;
+  border-radius: 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: #FDFFFC;
+  background-color: #2F2235;
+}

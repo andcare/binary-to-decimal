@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: italic;
+    background-color: #E7E7E7;
+}
+
+button {
+  font-family: inherit;
+}

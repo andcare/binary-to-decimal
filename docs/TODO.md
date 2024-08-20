@@ -8,6 +8,15 @@
 
 ## Coding Task
 
+- [x] Make a components for this project
+    * [x] Button component
+    * [x] Input component
+    * [x] Output component
+- [ ] Style the said components
+    * [x] Button component
+    * [ ] Input component
+    * [ ] Output component
+
 - [ ] Allow the User to enter **_Strings_** of up the **_8 Binary Digit_** in
       any sequence
 

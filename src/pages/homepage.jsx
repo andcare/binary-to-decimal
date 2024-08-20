@@ -6,8 +6,8 @@ const Homepage = () => {
 	return (
 		<div>
 			<InputComponent />
-			<ButtonComponent />
 			<OutputComponent />
+			<ButtonComponent />
 		</div>
 	)
 }

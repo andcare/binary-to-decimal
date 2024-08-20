@@ -3,7 +3,7 @@ import './index.css'
 const ButtonComponent = () => {
 	return (
 		<div>
-			<button className='btn-component'>Calculate</button>
+			<button className='btn-component'>CALCULATE</button>
 		</div>
 	)
 }

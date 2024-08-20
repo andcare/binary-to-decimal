@@ -2,10 +2,24 @@
   padding-block: 10px;
   padding-inline: 14px;
   font-size: 14px;
-  border-radius: 15px;
+  border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
   border: none;
   outline: none;
-  color: #FDFFFC;
-  background-color: #2F2235;
+  color: #212227;
+  background-color: #E7E7E7;
+  border: 2.5px dashed black;
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.2s ease;
+}
+
+.btn-component:hover {
+  background-color: black;
+  color: #E7E7E7;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn-component:active {
+  font-size: 12px;
+  transition: font-size 0.1s ease
 }

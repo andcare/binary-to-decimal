@@ -59,6 +59,12 @@
   transition: none;
 }
 
+.error:focus {
+  border: 2px solid #ff6961;
+  outline: none;
+  transition: none;
+}
+
 .result-component {
   font-size: 20px;
 }

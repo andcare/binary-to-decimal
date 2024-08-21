@@ -17,18 +17,22 @@
     * [x] Input component
     * [x] Output component
 
-- [ ] Allow the User to enter **_Strings_** of up the **_8 Binary Digit_** in
+- [x] Allow the User to enter **_Strings_** of up the **_8 Binary Digit_** in
       any sequence
 
-  - Binary Digits are 1s and 0s
+- [x] Binary Digits are 1s and 0s
 
 - [ ] Display its **_Decimal Equivalent_**
 
-  - [ ] User must be notified if anything other that 1 or 0 was entered
+  - [x] User must be notified if anything other that 1 or 0 was entered
   - [ ] User views the result in a single output field containing the
         decimal (base 10) equivalent of the binary number that was entered
 
-- [ ] Arrays will not be used to contain the binary digit entered by the User
+- [x] Arrays will not be used to contain the binary digit entered by the User
 
 - [ ] Determining the decimal equivalent of a particular binary digit in the
       sequence must be calculated using a single mathematical function.
+
+
+1. [x] Make sure that the input is a number and only 1s and 0s to be placed.
+2. Take the input as string and loop the string, maximum of 8 characters.

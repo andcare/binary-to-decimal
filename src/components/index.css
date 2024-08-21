@@ -1,3 +1,12 @@
+.btn-container {
+  align-self: flex-end;
+}
+.output-container {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
 .btn-component {
   padding-block: 10px;
   padding-inline: 14px;
@@ -10,7 +19,7 @@
   color: #212227;
   background-color: #E7E7E7;
   border: 2.5px dashed black;
-  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.2s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .btn-component:hover {
@@ -22,4 +31,39 @@
 .btn-component:active {
   font-size: 12px;
   transition: font-size 0.1s ease
+}
+
+.input-component {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  letter-spacing: 0.2rem;
+  padding: 1.2em 0.8em;
+  background-color: #E7E7E7;
+  border: 2px solid #8B8A8B;
+  border-radius: 4px;
+  line-height: 1;
+  height: 2.25rem;
+  transition: border 0.25s ease;
+}
+
+.input-component:focus {
+  border: 2px solid #77dd77;
+  outline: none;
+  transition: border-bottom 0.25s ease, bottom-inline 0.25s ease, bottom-top 0.25s ease
+}
+
+.error {
+  border: 2px solid #ff6961;
+  outline: none;
+  transition: none;
+}
+
+.result-component {
+  font-size: 20px;
+}
+
+.value {
+  font-weight: bold;
+  letter-spacing: 0.2rem
 }

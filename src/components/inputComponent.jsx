@@ -1,9 +1,12 @@
 const InputComponent = () => {
-	return (
-		<div>
-			<h1> This is the Input Component </h1>
-		</div>
-	)
+  return (
+    <div>
+      <input
+        type="text"
+        className='input-component'
+      />
+    </div>
+  )
 }
 
 export default InputComponent

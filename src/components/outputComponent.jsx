@@ -1,9 +1,15 @@
-const OutputComponent = () => {
-	return (
-		<div>
-			<h1> This is the Output Component </h1>
-		</div>
-	)
+import PropTypes from 'prop-types'
+
+const OutputComponent = ({ result }) => {
+  return (
+    <div className='output-container'>
+      <p className='result-component'>Result: <span className='value'>{result}</span></p>
+    </div>
+  )
+}
+
+OutputComponent.propTypes = {
+  result: PropTypes.number
 }
 
 export default OutputComponent

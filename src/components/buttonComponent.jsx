@@ -4,7 +4,7 @@ import './index.css'
 import { useContext } from 'react'
 
 const ButtonComponent = () => {
-  const { inputValue } = useContext(UserInputContext)
+  const { inputValue, setInputValue } = useContext(UserInputContext)
   const { setResultValue } = useContext(DecimalResultContext)
 
   const calculateValues = () => {
@@ -23,10 +23,13 @@ const ButtonComponent = () => {
       for (let i = inputValue.length - 1; i >= 0; i--) {
 
         if (inputValue[i] !== '1' && inputValue[i] !== '0') {
+          setInputValue('')
+          setResultValue(0)
           return
         } else {
           result += inputValue[i] * (Math.pow(base, power))
           power++
+          setInputValue('')
           setResultValue(result)
         }
       }
@@ -36,11 +39,14 @@ const ButtonComponent = () => {
 
       for (let i = 0; i < inputValue.length; i++) {
         if (inputValue[i] !== '1' && inputValue[i] !== '0' && inputValue[i] !== '.') {
-          break
+          setInputValue('')
+          setResultValue(0)
+          return
         } else {
           if (inputValue[i] === '.') continue
           result += inputValue[i] * (Math.pow(base, power))
           power--
+          setInputValue('')
           setResultValue(result)
         }
       }

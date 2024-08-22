@@ -4,17 +4,17 @@ import PropTypes from 'prop-types'
 const DecimalResultContext = createContext(null)
 
 const DecimalResultContextProvider = ({ children }) => {
-	const [resultValue, setResultValue] = useState('')
+  const [resultValue, setResultValue] = useState(256)
 
-	return (
-		<DecimalResultContext.Provider value={{ resultValue, setResultValue }}>
-			{children}
-		</DecimalResultContext.Provider>
-	)
+  return (
+    <DecimalResultContext.Provider value={{ resultValue, setResultValue }}>
+      {children}
+    </DecimalResultContext.Provider>
+  )
 }
 
 DecimalResultContextProvider.propTypes = {
-	children: PropTypes.any
+  children: PropTypes.any
 }
 
 export { DecimalResultContext, DecimalResultContextProvider }

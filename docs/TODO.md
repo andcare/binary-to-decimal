@@ -22,17 +22,18 @@
 
 - [x] Binary Digits are 1s and 0s
 
-- [ ] Display its **_Decimal Equivalent_**
+- [x] Display its **_Decimal Equivalent_**
 
   - [x] User must be notified if anything other that 1 or 0 was entered
-  - [ ] User views the result in a single output field containing the
+  - [x] User views the result in a single output field containing the
         decimal (base 10) equivalent of the binary number that was entered
 
 - [x] Arrays will not be used to contain the binary digit entered by the User
 
-- [ ] Determining the decimal equivalent of a particular binary digit in the
+- [x] Determining the decimal equivalent of a particular binary digit in the
       sequence must be calculated using a single mathematical function.
 
 
 1. [x] Make sure that the input is a number and only 1s and 0s to be placed.
-2. Take the input as string and loop the string, maximum of 8 characters.
+2. [x] Take the input as string and loop the string, maximum of 8 characters.
+3. [x] Consider the  decimal point in converting binary numbers

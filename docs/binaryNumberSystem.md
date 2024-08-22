@@ -95,3 +95,55 @@ in the binary number and using it to calculate the equivalent decimal number.
    with.
 4. sum the Products: Add together all the products from the previous step.
    This sum is the decimal equivalent of the binary number.
+
+
+**Binary Number System** 
+
+A **Binary Number** is a symbol expressed in the *base-2* [numeral system](https://en.wikipedia.org/wiki/Numeral_system). It is used to represent various numbers using only two symbols, typically `0` and `1`. The base-2 numeral system is a [positional notation](https://en.wikipedia.org/wiki/Positional_notation) with a radix (or base) of 2. Each digit is reffered as a bit, or binary digit.
+
+In a Binary Number System, any number can be represented by a sequence of
+**bits** (binary digits). Any of the following can be interpreted as the
+binary numeric value of 242:
+
+1 1 1 1 0 0 1 0
+| | | | - - | -
+☒ ☒ ☒ ☒ ☐ ☐ ☒ ☐
+
+In keeping with the customary representation of numerals using Arabic
+Numerals, binary numbers are commonly written using the symbols **0** and **1**. 
+
+100101<sub>2</sub> (a subscript indicating base-2 (binary) notation)
+
+
+**Decimal Number System**
+
+The number system that represents a number in terms of 0 to 9 digits. The
+radix (or base) of a number in this system is 10. In a Decimal Number System,
+a number is expressed in terms of power of 10; the positions of successive
+digits to the left of the decimal point represents units, tens, hundreds,
+thousands, and so on.
+
+
+**Binary to Decimal Conversion** 
+
+A Binary Number is converted into Decimal Number by multiplying each digit of
+the Binary Number by the power of either 1 or 0 to the corresponding power of
+2. 
+
+Formula: 
+```Math
+D = (an-1 × 2n-1) +…+(a3 × 23) + (a2 × 22) + (a1 × 21) + (a0 × 20)
+```
+
+Example:
+```Math
+    The given binary number is (10011)2.
+
+    (10011)2 = (1 × 24) + (0 × 23) + (0 × 22) + (1 × 21) + (1 × 20)
+
+    = 16 + 0 + 0 + 2 + 1 = (19)10
+
+    Hence, the binary number (10011)2 is expressed as (19)10.
+```
+
+
